@@ -50,6 +50,6 @@ function checkMatch(){
     openCards = [];
 
     if(document.querySelectorAll(".boxMatch").length === emojis.length) {
-        alert("Você venceu!")
+        swal("Bom Trabalho 🥳", "Você venceu está rodada!", "success");
     }
 }
